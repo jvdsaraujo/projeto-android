@@ -71,12 +71,15 @@ nav > a {
     border: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    box-sizing: border-box;
 }
 
 nav > a:hover {
     background-color: var(--cor4);
     padding: 4px;
     border-radius: 5px;
+    transform: translate(-3px, -3px);
+    transition: .4s, border .5s;
 }
 
 article {
